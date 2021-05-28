@@ -1,0 +1,95 @@
+.preim_obsh{
+display: flex;
+justify-content: space-around; 
+list-style-type: none;
+}
+.niz_mnogo{
+width: 500px;    
+display: flex;
+/*justify-content: space-around;    */
+text-decoration:none;
+}
+.footer_inner{
+display:flex;
+    justify-content: space-between;    
+}
+.zagniz{
+    width: 150px;
+    padding: 0;
+list-style-type: none;    
+}
+.ssblLka{
+text-decoration:none;
+}
+.ssblLka::after{
+ display: block;
+ content:"";
+ background-color:orange;
+ width: 120%; 
+ height: 1px;
+ margin-left: -30px;
+}
+.bleclblytext{
+text-decoration:none;    
+}
+*{
+margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+ width: 100%;
+	max-width: 1080px;
+	height: inherit;
+	margin: 0 auto;
+}
+.oo {
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+.verh{
+ display:flex;
+flex-direction: row;   
+justify-content: space-between    
+}
+.string{
+width: 330px;    
+display:flex;
+flex-direction: row;
+justify-content: space-around;    
+}
+.ip{
+width: 250px;    
+}
+.knopka{
+width: 200px;
+height: 45px;        
+display: flex;
+flex-direction: row;   
+background-color: yellow;
+justify-content: space-around;
+color: black;
+margin-top: 270px;
+border-radius: 15px;    
+}
+.buttom
+{
+margin-bottom: -12px;
+}
+.row_string{
+    display:flex;
+    flex-direction: row;
+justify-content: space-around;    
+}
+.nav_inner{
+    display:flex;
+    flex-direction: row;
+justify-content: space-between;    
+}
+.menu{
+    list-style-type: none;
+}
+.contacts_header{
+    list-style-type: none;
+}
